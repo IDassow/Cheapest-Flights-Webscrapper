@@ -362,8 +362,8 @@ def send_email():
     df = pd.DataFrame(testInfo)
 
     if not df.empty:  # Only send an email if we have actual flight info
-        email = open("none56242@gmail.com").read()
-        password = open("ThrowAway4T3sting").read()
+        email = open("Enter Here").read()
+        password = open("Enter Here").read()
 
         msg = EmailMessage()
 
